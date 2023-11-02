@@ -4,9 +4,9 @@ $dbhost="localhost";
 $dbuser="root";
 $dbpass="";
 $dbname="usuarios";
+$dbport="3306";
 
-
-$conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbuser);
+$conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbuser, $dbport);
 
 if(!$conn){
     die("no hay conexion: ".mysqli_connect_error());
