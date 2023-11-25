@@ -1,0 +1,91 @@
+body{
+    background-color: #193446;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+    
+
+}
+.logo{
+    margin-left: 30px;
+
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.navbar a{
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background: #3f3f3f;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.cards .card{
+    background: #d1cac3;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0,0.6);
+}
+
+.cards .card img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  display: block;
+}
+
+.cards .card > .contenido-texto-card{
+    width: 60%;
+    color: #0a0000;
+}
+
+.cards .card > .contenido-texto-card p{
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.contenedor{
+
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
