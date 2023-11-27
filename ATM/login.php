@@ -1,7 +1,7 @@
 <?php
   if (!empty($_POST["btnlog"])){
     if (empty($_POST["txtusuario"]) and empty($_POST["txtpassword"])){
-        echo '<script>alert("Por favor, complete todos los campos."); window.location.href = "login.html";</script>';
+        echo"campos vacios";
     }
     else{
 
