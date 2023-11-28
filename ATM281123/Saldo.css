@@ -1,0 +1,88 @@
+body{
+	background: url(img/sonoma.jpg) no-repeat center;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	margin: 0;
+    padding: 0;
+	display: flex;  
+	align-items: center; /* Centra verticalmente los elementos hijos */
+    justify-content: center; /* Centra horizontalmente los elementos hijos */    
+    text-align: center; 
+    font-family: sans-serif;
+    color: white;
+}
+.head{
+	background: #171717;
+	height:63px;
+	background-size: cover;
+	position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 100;
+}
+.navar{
+	display: flex;
+	margin-right: 30px;
+}
+.navar a {
+	display: block;
+	padding: 23px 20px;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-decoration: none;
+}
+.navbar a:hover{
+    background: #3f3f3f;
+}
+.logo{
+	margin-left: 30px;
+}
+.logo a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.head a{
+	color: white;
+	font-size: 20px;
+}
+.head .logo{
+	font-size: 20px;
+
+}
+.boxcont{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+.boxcont .box{
+	background: #171717;
+	height: 20rem;
+	width: 20rem;
+	border-radius: 1rem;
+}
+input.campo{
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	background: #101010;
+	height: 2rem;
+	width: 10rem;
+	border-radius: 0.5rem;
+	border-color: black;
+}
+input.boton{
+	font-size: 15px;
+	background: steelblue;
+	color: white;
+	height: 2rem;
+	width: 10rem;
+	border-radius: 0.5rem;
+	border-color: steelblue;
+}
