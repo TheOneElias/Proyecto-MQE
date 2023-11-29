@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Nueva cuenta</title>
+    <link rel="stylesheet" href="account.css">
+  </head>
+  <body>
+
+    <div class="login-box">
+      <img src="img/logo2.jpeg" class="avatar" alt="Avatar Image">
+      <h1>Crea tu cueta</h1>
+      <form method="post" action="account.php">
+        <!-- nombre -->
+        <label for="username">Nombre</label>
+        <input type="text" name="txtusuario" placeholder="ingresa tu nombre">
+        <!-- apellido paterno -->
+        <label for="lastname1">Apellido paterno</label>
+        <input type="text" name="txtap" placeholder="ingresa tu apellido">
+        <!-- apellido materno -->
+        <label for="lastname2">Apellido materno</label>
+        <input type="text" name="txtam" placeholder="ingresa tu apellido">
+        <!-- email -->
+        <label for="email">Email</label>
+        <input type="text" name="txtemail" placeholder="ingresa tu correo">
+        <!-- contraseña -->
+        <label for="password">Clave</label>
+        <input type="password" name="txtpassword" placeholder="Crea una clave">
+        <!-- numero de cuenta -->
+        <label for="numeroc">Numero de cuenta</label>
+        <input type="text" name="txtclave" placeholder="crea un numero de cuenta">
+        <input type="submit" value="Crear">
+      </form>
+    </div>
+  </body>
+</html>
