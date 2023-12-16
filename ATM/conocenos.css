@@ -1,0 +1,125 @@
+body{
+    background: url(img/INICIO2.gif) no-repeat center top;
+    background-size: cover;
+}
+/*
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+}
+*/
+
+#header{
+    width: 100%;
+    height: 100%;
+    background-image: url(INICIO.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .nav{
+    position: absolute;
+    top: 5;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    top: -1%;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+    left: 390px;
+  }
+  .caca{
+    width: 99%;
+    height: 0px;
+    background-color: yellowgreen;
+    position: absolute;
+  }
+  .menu{
+    display: flex;
+    position: absolute;
+  }
+  .menu li{
+    list-style: none;
+    margin: 10px;
+  }
+  .menu li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+  }
+  .menu li a:hover{
+    padding: 5px 10px;
+    background: #ffffff ;
+    color: #070707;
+    border-radius: 15px;
+  }
+  .nav li ul{
+    display: none;
+    position: absolute;
+    max-width: 140px;
+  }
+  .nav li:hover > ul {
+    display:block;
+  }
+  .nav li ul li{
+    position: relative;
+    left:10px;
+  }
+  .nav li ul li ul{
+    left:-310px;
+    top:25px;
+  }  
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.cards .card{
+    background: #d1cac3;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0,0.6);
+}
+
+.cards .card img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  display: block;
+}
+
+.cards .card > .contenido-texto-card{
+    width: 60%;
+    color: #0a0000;
+}
+
+.cards .card > .contenido-texto-card p{
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.contenedor{
+
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}

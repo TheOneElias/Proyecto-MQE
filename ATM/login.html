@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Inicio de sesion</title>
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+
+    <div class="login-box">
+      <img src="img/us.PNG" class="avatar" alt="Avatar Image">
+      <div class="texto">
+      <h1>Iniciar sesión</h1>
+      <form method="post" action="login.php">
+        <!-- usuario -->
+        <label for="username">Usuario</label>
+        <input type="text" name="txtusuario" placeholder="Ingresar usuario" required>
+        <!-- contraseña -->
+        <label for="password">Clave</label>
+        <input type="password" name="txtpassword" placeholder="Ingresar clave" required>
+        <input type="submit" name="btnlog" value="Ingresar">
+      </div>
+        <center><a href="account.html">Crear cuenta</a></center>
+      </form>
+    </div>
+  </body>
+</html>

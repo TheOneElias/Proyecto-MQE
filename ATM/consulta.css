@@ -1,0 +1,59 @@
+#header{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center; 
+  }
+ body{
+  background: url(img/CONSULTA2.gif) no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+ }
+.container {
+    width: 25%;
+    margin: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    top: 25%;
+    left: 20%;
+    position: fixed;
+    filter: drop-shadow(5px 5px 10px #000);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label,
+input,
+button {
+    margin: 10px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2C5876;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #133044;
+}
+

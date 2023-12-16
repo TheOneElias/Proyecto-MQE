@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>cambio de contraseña</title>
+    <link rel="stylesheet" href="cambioContra.css">
+  </head>
+  <body>
+
+    <div class="login-box">
+      <img src="img/us.PNG" class="avatar" alt="Avatar Image">
+      <DIV class="texto">
+      <h1>Cambio de clave</h1>
+      <form method="post" action="cambioContra.php">
+        <!-- contraseña antigua -->
+        <label for="ca">Clave actual</label>
+        <input type="text" name="txtCA" placeholder="Ingresa tu clave actual" required>
+        <!-- contraseña nueva -->
+        <label for="cn">Clave nueva</label>
+        <input type="text" name="txtCN" placeholder="solo 8 caracteres" required>
+        <input type="submit" name="btncam" value="Cambiar"></div>
+      </form>
+    </div>
+  </body>
+</html>
