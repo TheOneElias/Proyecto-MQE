@@ -1,2 +1,2 @@
 # Proyecto-MQE
-Repositorio que tiene como objetivo trabajar nuestro proyecto de la MQE
+Elias es un naco estupido que no sabe programar
